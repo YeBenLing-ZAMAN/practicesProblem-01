@@ -24,16 +24,21 @@ h1{
     color: tomato;
 }
 .button_link{
+
     text-decoration: none;
-    background-image: linear-gradient(rgb(238, 160, 160) tomato);
+    background-image: linear-gradient(white tomato);
     background-color: tomato;
     padding: 10px 40px;
     border-radius: 8px;
-    columns: white;
+    color: white;
 }
 .first_poster_child img{
+    margin-top: 20px;
     width: 70%;
     padding-left: 80px;
+}
+#heirme{
+    margin-top: 30px;
 }
 
 
