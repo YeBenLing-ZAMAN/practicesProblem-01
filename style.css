@@ -17,6 +17,7 @@ body{
 }
 h1{
     font-size: 50px;
+    text-transform: capitalize;
 
 }
 .name{
@@ -47,4 +48,46 @@ h1{
 }
 h3{
     font-size: 30px;
+    text-transform: capitalize;
+    
+}
+
+.Experiences{
+    color: tomato;
+}
+
+.sub_poster{
+    display: flex;
+    margin-bottom: 300px;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.card{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+}
+#card-01{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(238, 160, 160) , red);
+    border-image-slice: 1;
+}
+#card-02{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(198, 234, 243) , blue);
+    border-image-slice: 1;
+}
+h4{
+    color: orange;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+#footer_part{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
 }
