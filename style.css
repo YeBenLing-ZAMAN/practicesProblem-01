@@ -1,0 +1,32 @@
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.first-poster{
+    display: flex;
+    
+}
+.first_poster_child{
+    width: 50%;
+    padding-left: 40px;
+}
+h1{
+    font-size: 50px;
+
+}
+.name{
+    color: tomato;
+}
+.button_link{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(238, 160, 160) tomato);
+    background-color: tomato;
+    padding: 10px 40px;
+    border-radius: 8px;
+    columns: white;
+}
+.first_poster_child img{
+    width: 70%;
+    padding-left: 80px;
+}
